@@ -1,0 +1,19 @@
+{%- assign nodes = site.pages | where: 'layout', 'default' | sort: 'title' %}
+<!-- {{- nodes | inspect }} -->
+<ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="concept.html">Concept</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aanbod.html">Aanbod</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src=assets/img/noël.png width=40%></a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="bestel.html">Bestel</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="contact.html">Contact</a>
+        </li>
+      </ul>

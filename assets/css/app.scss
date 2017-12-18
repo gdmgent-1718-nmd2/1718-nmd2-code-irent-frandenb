@@ -3,3 +3,267 @@
 @charset "UTF-8";
 
 @import "main";
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    font-size:15pt;
+    margin-top: 20px;
+    color: darkred;
+}
+
+.nav {
+    background-color: rgb(138, 19, 19);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+  }
+
+.footer {
+    position: absolute;
+}
+
+/*--conceptpagina--*/
+.staff {
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    margin-left:90px;
+    margin-bottom: 30px;
+    width:180px;
+    height:213px;
+    position:relative;
+}
+
+.staf-hover {
+    position:absolute;
+    top:0px;
+    left:0px;
+    z-index: 5;
+   
+    width:180px;
+    height:213px;
+
+    display:block;
+    opacity:0;
+
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;    
+    
+}
+
+.staf-hover:hover {
+    display:block;
+    opacity:1;
+}
+
+
+.uitlijninglinks {
+    text-align:left;
+    margin: 70px;
+    margin-left: 40px;
+}
+
+.uitlijningrechts {
+    text-align:right;
+    margin: 20px;
+    margin-top: 75px;
+    margin-right: 40px;
+}
+
+.uitlijninglinks2 {
+    text-align:left;
+    margin: 20px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.titleconcept {
+    color: darkred;
+}
+
+.kerstbal {
+    margin-left: 130px;
+    margin-bottom: 170px;
+}
+
+.kerstbal-1 {
+    top: -32px;
+    position: relative;
+}
+
+.kerstbal-2 {
+    top: -56px;
+    position: relative;
+}
+
+.kerstbal-3 {
+    top: -1px;
+    position: relative;
+}
+
+.kerstbal-4 {
+    top: -40px;
+    position: relative;
+}
+
+.lijntje {
+    border-bottom:1px solid darkgreen;
+    height:1px;
+    width:75%;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+
+.lijntje-rechts {
+    float:right;
+}
+
+.lijntje-links {
+    float:left;
+}
+
+
+/*--contactpagina--*/
+ /* START FORM */
+
+ *::-webkit-input-placeholder {
+    color: black;
+}
+
+#feedback-page {
+    text-align: center;
+}
+
+#form-main {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+    height: 550px;
+}
+
+#form-div {
+    background: #fff;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -260px;
+}
+
+.feedback-input {
+    color: darkred;
+    font-family: Montserrat, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: white;
+    padding: 13px 13px 13px 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #000;
+}
+
+.feedback-input:focus {
+    background: #fff;
+    box-shadow: 0;
+    color: #000;
+    outline: none;
+    padding: 13px 13px 13px 13px;
+}
+
+.focused {
+    color: #000;
+    border: darkred solid 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    background-color: lightgrey;
+}
+
+#button-blue {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 300;
+}
+
+#button-blue:hover {
+    background-color: white;
+    color: darkred;
+}
+
+.submit:hover {
+    color: darkred;
+}
+
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+
+.submit:hover .ease {
+    width: 100%;
+    background-color: white;
+}
+
+@media only screen and (max-width: 580px) {
+    #form-div {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+
