@@ -11,6 +11,11 @@ body {
     
 }
 
+p {
+    font-family: Montserrat, Arial, sans-serif;
+    font-size: 10pt;
+}
+
 h1 {
     font-size:15pt;
     margin-top: 20px;
@@ -59,7 +64,7 @@ h1 {
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
     -o-transition: opacity .5s ease-out;    
-    
+    margin-bottom: 40px;
 }
 
 .staf-hover:hover {
@@ -72,6 +77,7 @@ h1 {
     text-align:left;
     margin: 70px;
     margin-left: 40px;
+    line-height: 25px;
 }
 
 .uitlijningrechts {
@@ -79,6 +85,7 @@ h1 {
     margin: 20px;
     margin-top: 75px;
     margin-right: 40px;
+    line-height: 25px;
 }
 
 .uitlijninglinks2 {
@@ -86,6 +93,7 @@ h1 {
     margin: 20px;
     margin-top: 70px;
     margin-left: 40px;
+    line-height: 25px;
 }
 
 .titleconcept {
@@ -133,6 +141,10 @@ h1 {
     float:left;
 }
 
+.tekstlinks {
+    margin-left: 45px;
+    line-height: 25px;
+}
 
 /*--contactpagina--*/
  /* START FORM */
@@ -150,6 +162,8 @@ h1 {
     float: left;
     padding-top: 0px;
     height: 550px;
+    margin-bottom: 100px;
+    margin-left: 20px;
 }
 
 #form-div {
@@ -162,7 +176,7 @@ h1 {
     float: left;
     left: 50%;
     position: absolute;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: -260px;
 }
 
@@ -182,7 +196,7 @@ h1 {
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     border: 0px solid transparent;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(212, 211, 211);
 }
 
 .feedback-input:focus {
@@ -266,4 +280,42 @@ textarea:focus {
     }
 }
 
+/*--bestel1--*/
+.progress {
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 5px;
+}
 
+.bg-success {
+    background-color: darkgreen !important;
+}
+
+.steps {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.progress {
+    align-content: center;
+}
+
+.form-check {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form-check1 {
+    text-align: center;
+    margin-top: 20px;
+ }
+ 
+.form-check2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 245px;
+    
+ }
+
+ /*--aanbod--*/
