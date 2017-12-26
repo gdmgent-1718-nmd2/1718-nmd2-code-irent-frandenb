@@ -12,7 +12,7 @@ body {
 }
 
 p {
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10pt;
 }
 
@@ -319,3 +319,22 @@ textarea:focus {
  }
 
  /*--aanbod--*/
+.menubutton {
+    color: white;
+    background-color: darkred;
+    margin-top: 20px;
+    border: 30px;
+    border-radius: 70px;
+    padding: 14px 40px;
+}
+
+.menubutton:hover {
+    color: darkred;
+    background-color: white;
+    margin-top: 20px;
+    border: 30px;
+    border-radius: 70px;
+    padding: 14px 40px;
+}
+
+
