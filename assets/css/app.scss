@@ -1,14 +1,9 @@
 ---
 ---
 @charset "UTF-8";
-
 @import "main";
-
-
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
 }
 
 p {
@@ -17,9 +12,16 @@ p {
 }
 
 h1 {
-    font-size:15pt;
+    font-size: 15pt;
     margin-top: 20px;
+    margin-bottom: 30px;
     color: darkred;
+}
+
+h2 {
+    font-size: 8pt;
+    color: grey;
+    text-align: left;
 }
 
 .nav {
@@ -28,60 +30,58 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     text-align: center;
-  }
+}
 
 .footer {
     position: absolute;
 }
 
+
 /*--conceptpagina--*/
+
 .staff {
-    text-align:center;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     float: left;
-    margin-left:90px;
+    margin-left: 90px;
     margin-bottom: 30px;
-    width:180px;
-    height:213px;
-    position:relative;
+    width: 180px;
+    height: 213px;
+    position: relative;
 }
 
 .staf-hover {
-    position:absolute;
-    top:0px;
-    left:0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
     z-index: 5;
-   
-    width:180px;
-    height:213px;
-
-    display:block;
-    opacity:0;
-
+    width: 180px;
+    height: 213px;
+    display: block;
+    opacity: 0;
     transition: opacity .5s ease-out;
     -moz-transition: opacity .5s ease-out;
     -webkit-transition: opacity .5s ease-out;
-    -o-transition: opacity .5s ease-out;    
+    -o-transition: opacity .5s ease-out;
     margin-bottom: 40px;
 }
 
 .staf-hover:hover {
-    display:block;
-    opacity:1;
+    display: block;
+    opacity: 1;
 }
 
-
 .uitlijninglinks {
-    text-align:left;
+    text-align: left;
     margin: 70px;
     margin-left: 40px;
     line-height: 25px;
 }
 
 .uitlijningrechts {
-    text-align:right;
+    text-align: right;
     margin: 20px;
     margin-top: 75px;
     margin-right: 40px;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .uitlijninglinks2 {
-    text-align:left;
+    text-align: left;
     margin: 20px;
     margin-top: 70px;
     margin-left: 40px;
@@ -126,19 +126,19 @@ h1 {
 }
 
 .lijntje {
-    border-bottom:1px solid darkgreen;
-    height:1px;
-    width:75%;
-    margin-top:40px;
-    margin-bottom:40px;
+    border-bottom: 1px solid darkgreen;
+    height: 1px;
+    width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .lijntje-rechts {
-    float:right;
+    float: right;
 }
 
 .lijntje-links {
-    float:left;
+    float: left;
 }
 
 .tekstlinks {
@@ -146,10 +146,13 @@ h1 {
     line-height: 25px;
 }
 
-/*--contactpagina--*/
- /* START FORM */
 
- *::-webkit-input-placeholder {
+/*--contactpagina--*/
+
+
+/* START FORM */
+
+*::-webkit-input-placeholder {
     color: black;
 }
 
@@ -182,7 +185,7 @@ h1 {
 
 .feedback-input {
     color: darkred;
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
     font-size: 14px;
     border-radius: 0;
@@ -219,68 +222,13 @@ textarea {
     resize: vertical;
 }
 
-input:hover,
-textarea:hover,
-input:focus,
-textarea:focus {
-    background-color: lightgrey;
-}
-
-#button-blue {
-    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-    float: left;
-    width: 100%;
-    border: 0px solid transparent;
-    cursor: pointer;
-    background-color: darkred;
-    color: white;
-    font-size: 18px;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-    margin-top: -4px;
-    font-weight: 300;
-}
-
-#button-blue:hover {
-    background-color: white;
-    color: darkred;
-}
-
-.submit:hover {
-    color: darkred;
-}
-
-.ease {
-    width: 0px;
-    height: 74px;
-    background-color: #fbfbfb;
-    -webkit-transition: .3s ease;
-    -moz-transition: .3s ease;
-    -o-transition: .3s ease;
-    -ms-transition: .3s ease;
-    transition: .3s ease;
-}
-
-.submit:hover .ease {
-    width: 100%;
-    background-color: white;
-}
-
-@media only screen and (max-width: 580px) {
-    #form-div {
-        left: 3%;
-        margin-right: 3%;
-        width: 88%;
-        margin-left: 0;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-}
 
 /*--bestel1--*/
+
+.totaal {
+    text-align: right;
+}
+
 .progress {
     margin-top: 40px;
     margin-left: 200px;
@@ -304,21 +252,31 @@ textarea:focus {
 .form-check {
     text-align: center;
     margin-top: 40px;
+    margin-left: -10px;
 }
 
 .form-check1 {
     text-align: center;
     margin-top: 20px;
- }
- 
+    margin-left: -58px;
+}
+
 .form-check2 {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 245px;
-    
- }
+    margin-left: -37px;
+    margin-bottom: 120px
+}
 
- /*--aanbod--*/
+.form-check3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: -7px;
+}
+
+
+/*--aanbod--*/
+
 .menubutton {
     color: white;
     background-color: darkred;
@@ -345,7 +303,6 @@ textarea:focus {
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-    
 }
 
 .menubutton2:hover {
@@ -355,18 +312,16 @@ textarea:focus {
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-   
 }
 
 .menubutton3 {
     color: white;
     background-color: darkred;
     margin-top: 20px;
-    margin-left:75px;
+    margin-left: 75px;
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-    
 }
 
 .menubutton3:hover {
@@ -376,19 +331,17 @@ textarea:focus {
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-   
 }
 
 .menubutton4 {
     color: white;
     background-color: darkred;
     margin-top: 20px;
-    margin-left:40px;
+    margin-left: 40px;
     border-bottom: 12px;
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-    
 }
 
 .menubutton4:hover {
@@ -398,6 +351,8 @@ textarea:focus {
     border: 30px;
     border-radius: 70px;
     padding: 14px 40px;
-   
 }
 
+.nav-link.disabled {
+    color: white;
+}
